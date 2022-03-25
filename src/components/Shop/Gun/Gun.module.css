@@ -1,0 +1,74 @@
+.gun {
+    height: 340px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 1px 2px 3px rgb(0 0 0 / 0.3);
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.gumImageContainer {
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 150px;
+}
+.gun img {
+    width: 100%;
+}
+
+.gunInfo {
+    padding: 0 10px;
+}
+
+.gunName {
+    font-family: "Lato";
+    color: dimgray;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.gunPrice {
+    font-family: "Lato";
+    color: dimgray;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 7px 0;
+
+}
+.action {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.addToCartButton {
+    font-weight: bold;
+    font-size: 18px;
+    background:none;
+    color: green;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addToCartButton p {
+    margin-right: 8px;
+}
+
+.addToCartButton:hover {
+    color: orange;
+}
+.addToCartButton:active {
+    color: tomato;
+}

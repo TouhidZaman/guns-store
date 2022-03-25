@@ -1,74 +1,74 @@
 [
     {
       "id": "623dde289b96ec492dc08e34",
-      "name": "Gail Calderon",
+      "name": "M-65 Russian Assault Rifle",
       "price": 420,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://freepngimg.com/thumb/assault%20rifle/2-assault-rifle-png.png"
     },
     {
       "id": "623dde28f8265119cf0ee94e",
-      "name": "Spence Gilliam",
+      "name": "Pistol P-19 special addition",
       "price": 384,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://cdn.pixabay.com/photo/2015/09/13/23/05/smith-and-wesson-938834_960_720.png"
     },
     {
       "id": "623dde2842f516000e98dcb7",
-      "name": "Hoffman Atkins",
+      "name": "M-416 - Assault Rifle",
       "price": 373,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://freepngimg.com/thumb/assault%20rifle/3-assault-rifle-png.png"
     },
     {
       "id": "623dde281840b82e8c6a8e22",
-      "name": "Katheryn Bates",
+      "name": "Stayer Assault Rifle",
       "price": 384,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://freepngimg.com/thumb/assault%20rifle/4-stayer-assault-rifle-png.png"
     },
     {
       "id": "623dde28a5709e7072c63e6b",
-      "name": "Meyers Trujillo",
+      "name": "PPSH soviet assault rifle",
       "price": 442,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://pngimg.com/uploads/assault_rifle/assault_rifle_PNG1449.png"
     },
     {
       "id": "623dde28a60cefd3f12640d7",
-      "name": "Booker Barton",
+      "name": "Pistol P-92 special addition",
       "price": 485,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://cdn.pixabay.com/photo/2018/02/12/23/37/handgun-3149414_960_720.png"
     },
     {
       "id": "623dde28076588b10def0044",
-      "name": "Farley Ortiz",
+      "name": "Ak-105 Assault Rifle",
       "price": 315,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://freepngimg.com/thumb/assault%20rifle/5-ak-105-assault-rifle-png.png"
     },
     {
       "id": "623dde283747c436618b05cd",
-      "name": "Huffman Carson",
+      "name": "AK-47 Russian Assault Rifle",
       "price": 375,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://www.freepnglogos.com/uploads/gun-png/gun-transparent-background-38.png"
     },
     {
       "id": "623dde28a0b98e1e3dd04543",
-      "name": "Johanna Haney",
+      "name": "AK-47 Kalashnikov",
       "price": 395,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://pngimg.com/uploads/ak47/ak47_PNG15469.png"
     },
     {
       "id": "623dde287494dd0095e43382",
-      "name": "Morrow Compton",
+      "name": "AK-47 Kalashnikov's Automatic Rifle",
       "price": 455,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://pngimg.com/uploads/ak47/ak47_PNG15467.png"
     },
     {
       "id": "623dde28f74342bde3db223a",
-      "name": "Newton Nicholson",
+      "name": "SCAR assault rifle",
       "price": 320,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://pngimg.com/uploads/assault_rifle/assault_rifle_PNG1440.png"
     },
     {
       "id": "623dde28761e52e9294abdba",
-      "name": "Lambert Bender",
+      "name": "VSS Val, russian assault rifle",
       "price": 478,
-      "imgUrl": "http://placehold.it/64x64"
+      "imgUrl": "https://pngimg.com/uploads/assault_rifle/assault_rifle_PNG1445.png"
     }
   ]

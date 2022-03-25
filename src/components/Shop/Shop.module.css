@@ -1,0 +1,22 @@
+.shopContainer {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 45px;
+    background-color: #cecece62;
+}
+.gunsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin-right: 45px;
+}
+.orderSummeryContainer {
+    background: white;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 0.3);
+    padding: 0 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: dimgray;
+}
