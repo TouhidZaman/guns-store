@@ -9,6 +9,7 @@
     padding: 10px;
 }
 .gumImageContainer {
+    /* background-color: lightcyan; */
     background-color: aliceblue;
     border-radius: 10px;
     display: flex;

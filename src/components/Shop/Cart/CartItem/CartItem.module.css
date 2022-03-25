@@ -1,0 +1,35 @@
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    background-color:lightcyan;
+}
+.cartItem img{
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit:contain;
+    /* border: 3px solid white; */
+}
+.cartItem h3{
+    padding: 0 10px;
+    margin: 0;
+}
+
+.deleteCartItemButton {
+    font-weight: bold;
+    font-size: 24px;
+    background:none;
+    color: dimgray;
+    border: none;
+}
+.deleteCartItemButton:hover {
+    color: orange;
+}
+.deleteCartItemButton:active {
+    color: red;
+}

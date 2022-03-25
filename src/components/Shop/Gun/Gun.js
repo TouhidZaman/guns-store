@@ -3,7 +3,7 @@ import styles from './Gun.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
-const Gun = ({gun}) => {
+const Gun = ({gun, addToCartHandler}) => {
     const { imgUrl, name, price } = gun;
     return (
         <div className={styles.gun}>
@@ -15,7 +15,7 @@ const Gun = ({gun}) => {
                 <h5 className={styles.gunPrice}>Price: ${price}</h5>
             </div>
             <div className={styles.action}>
-                <button className={styles.addToCartButton}>
+                <button onClick={() => addToCartHandler(gun)} className={styles.addToCartButton}>
                     <p>Add to Cart</p>
                     <FontAwesomeIcon icon={faShoppingCart}/>
                 </button>
