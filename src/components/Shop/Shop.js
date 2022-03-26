@@ -20,9 +20,13 @@ const Shop = () => {
         const newCart = [...cart];
         const productIndex = newCart.indexOf(gun)
         if(productIndex === -1) {
-            newCart.push(gun)
-            setCart(newCart);
+            if(newCart.length < 4) {
+                newCart.push(gun)
+                setCart(newCart);
+            }
+            else alert("You can add Maximum 4 item to the cart")
         }
+        else alert("Already added to the cart")
     }
 
     //Delete Cart Item Handler
