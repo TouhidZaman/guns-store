@@ -1,4 +1,26 @@
+.navbar {
+    background-color: white;
+    box-shadow: 1px 2px 3px rgb(0 0 0 / 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 80px;
+    /* position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 900; */
+}
 .navbar h1 {
     color: tomato;
     text-align: center;
+}
+
+/* Adjustments For Mobile view  */
+@media screen and (max-width: 768px) {
+    .navbar h1 {
+        width: 50%;
+        padding-bottom: 5px;
+    }
 }

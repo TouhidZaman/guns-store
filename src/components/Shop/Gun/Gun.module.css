@@ -8,6 +8,7 @@
     box-sizing: border-box;
     padding: 10px;
 }
+
 .gumImageContainer {
     /* background-color: lightcyan; */
     background-color: aliceblue;
@@ -18,10 +19,12 @@
     height: 150px;
     overflow: hidden;
 }
+
 .gun img {
     width: 100%;
     transition: transform 1s ease-in;
 }
+
 .gun img:hover {
     transform: scale(1.1);
 }
@@ -49,6 +52,7 @@
     margin: 7px 0;
 
 }
+
 .action {
     position: absolute;
     bottom: 0;
@@ -57,10 +61,11 @@
     display: flex;
     justify-content: center;
 }
+
 .addToCartButton {
     font-weight: bold;
     font-size: 18px;
-    background:none;
+    background: none;
     color: green;
     border: none;
     display: flex;
@@ -76,6 +81,14 @@
 .addToCartButton:hover {
     color: orange;
 }
+
 .addToCartButton:active {
     color: tomato;
+}
+
+/* Adjustments For Mobile view  */
+@media screen and (max-width: 768px) {
+    .gun {
+        width: 100%;
+    }
 }
