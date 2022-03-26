@@ -1,0 +1,21 @@
+.question h3 {
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.question p {
+    margin-top: 0px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* Adjustments For Mobile view  */
+@media screen and (max-width: 992px) {
+    .question h3 {
+        text-align: center;
+    }
+    .question p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+}

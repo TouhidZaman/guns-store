@@ -1,0 +1,17 @@
+[
+  {
+    "id": "444623dde289b96ec492dc08e34",
+    "question": "How React works ?",
+    "answer": "Browser’s DOM (The Document Object Model) is very slow to access and manipulate. \n      So, to make it faster, React implements a virtual DOM that is basically a DOM tree representation in JavaScript. \n      So when it needs to read or write to the DOM, it will use the virtual representation of it. \n      Then the virtual DOM will try to find the most efficient way to update the browser’s DOM.\n      Unlike browser DOM elements, React elements are plain objects and are cheap to create. \n      React DOM takes care of updating the DOM to match the React elements."
+  },
+  {
+    "id": "444623dde28f8265119cf0ee94e",
+    "question": "What is the difference between Props and State ?",
+    "answer": "While both hold information that influences the output of render, \n      they are different in one important way props get passed to the component whereas state is managed within the component .\n      Props are used to communicate between components where States is used to rendering dynamic changes with the component. \n      Props are read-only and  immutable but State changes can be asynchronous and state is mutable."
+  },
+  {
+    "id": "444623dde2842f516000e98dcb7",
+    "question": "How useState() works ?",
+    "answer": "useState() is a Hook that allows you to have one or more  state variables in functional components. \n      You pass the initial state to this function. Then, it returns a variable with the current state value and another function to update this value. \n      Under the hood, React keeps track of these state variables. React uses state to ensures they stay up-to-date on subsequent re-renders of the component "
+  }
+]
