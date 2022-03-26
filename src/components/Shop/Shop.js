@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Cart from './Cart/Cart';
+import CartItem from './Cart/CartItem/CartItem';
 import Gun from './Gun/Gun';
 import styles from './Shop.module.css';
 
 const Shop = () => {
     const [guns, setGuns] = useState([]);
     const [cart, setCart] = useState([]); 
+    const [chosenOne, setChosenOne] = useState(null); 
 
     //Getting data from guns json data
     useEffect(() => {
@@ -33,8 +35,21 @@ const Shop = () => {
             newCart.splice(deletedItemIndex, 1);
             setCart(newCart); //updating cart items
         } 
-        console.log(newCart);
+        // console.log(newCart);
     }
+
+    //Getting chosen One from cart
+    const findChosenOneHandler = () => {
+        if(cart.length) {
+            const chosenOnesIndex = Math.floor(Math.random() * cart.length);
+            const chosenOne = cart[chosenOnesIndex];
+            setChosenOne(chosenOne);
+        }
+    }
+
+    //Removing chosen one
+    const deleteChosenOneHandler = () => setChosenOne(null);
+
     return (
         <div className={styles.shopContainer}>
             <div className={styles.gunsContainer}>
@@ -47,10 +62,12 @@ const Shop = () => {
                 }
             </div>
             <div className={styles.cartContainer}>
-                <h3>Selected Guns</h3>
                 <Cart 
                     cart={cart} 
-                    deleteCartItemHandler={deleteCartItemHandler}
+                    deleteCartItem={deleteCartItemHandler}
+                    findChosenOne={findChosenOneHandler}
+                    chosenOne={chosenOne}
+                    deleteChosenOne={deleteChosenOneHandler}
                 />
             </div>
         </div>
