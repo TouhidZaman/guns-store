@@ -4,7 +4,7 @@ import CartItem from './CartItem/CartItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-const Cart = ({cart, deleteCartItem, findChosenOne, deleteChosenOne, chosenOne}) => {
+const Cart = ({cart, deleteCartItem, clearCart, findChosenOne, deleteChosenOne, chosenOne}) => {
     return (
         <div className={styles.cart}>
             <h3>Selected Guns</h3>
@@ -20,7 +20,7 @@ const Cart = ({cart, deleteCartItem, findChosenOne, deleteChosenOne, chosenOne})
                     <p>Choose one</p>
                     <FontAwesomeIcon icon={faSearch}/>
                 </button>
-                <button className={styles.chooseAgainButton}>
+                <button onClick={clearCart} className={styles.chooseAgainButton}>
                     Choose again
                 </button>
             </div>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Cart from './Cart/Cart';
-import CartItem from './Cart/CartItem/CartItem';
 import Gun from './Gun/Gun';
 import styles from './Shop.module.css';
 
@@ -18,12 +17,12 @@ const Shop = () => {
 
     //Add to cart event handler
     const addToCartHandler = gun => {
-        const productIndex = cart.indexOf(gun)
         const newCart = [...cart];
+        const productIndex = newCart.indexOf(gun)
         if(productIndex === -1) {
             newCart.push(gun)
+            setCart(newCart);
         }
-        setCart(newCart);
     }
 
     //Delete Cart Item Handler
@@ -35,8 +34,15 @@ const Shop = () => {
             newCart.splice(deletedItemIndex, 1);
             setCart(newCart); //updating cart items
         } 
-        // console.log(newCart);
     }
+
+    //Deleting all Items from chart
+    const clearCartHandler = () => setCart([]);
+
+    //Removing chosen one based on cart data changes
+    useEffect(() => {
+        deleteChosenOneHandler()
+    },[cart])
 
     //Getting chosen One from cart
     const findChosenOneHandler = () => {
@@ -68,6 +74,7 @@ const Shop = () => {
                     findChosenOne={findChosenOneHandler}
                     chosenOne={chosenOne}
                     deleteChosenOne={deleteChosenOneHandler}
+                    clearCart={clearCartHandler}
                 />
             </div>
         </div>
